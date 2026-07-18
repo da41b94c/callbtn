@@ -1,10 +1,32 @@
-<html>
-	<head>
-		<link href="css/core.css" rel="stylesheet"/>
-	</head>
-	<body>
-		<a href="tel:0123456987" id="callBtn" class="callBtn">
-			<span class="callBtnLabel">Call</span>
-		</a>
-	</body>
+<!doctype html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Доступная CSS-кнопка звонка с пульсацией и анимацией телефона.">
+	<title>CallBtn — CSS-кнопка звонка</title>
+	<link rel="stylesheet" href="css/core.css">
+	<link rel="stylesheet" href="css/demo.css">
+</head>
+<body>
+	<main>
+		<h1>CSS-кнопка звонка без JavaScript</h1>
+		<p>
+			Компактный компонент для мобильных лендингов и сайтов услуг. Цвет, размер и положение
+			настраиваются через CSS-переменные, а анимация отключается при системном запросе
+			на уменьшение движения.
+		</p>
+
+		<div class="demoActions">
+			<a class="callBtn callBtn--static" href="tel:+70000000000" aria-label="Позвонить по телефону">
+				<span class="callBtnLabel">Позвонить</span>
+			</a>
+			<p class="demoHint">Нажмите кнопку или откройте <code>css/core.css</code>.</p>
+		</div>
+	</main>
+
+	<a class="callBtn" href="tel:+70000000000" aria-label="Позвонить по телефону">
+		<span class="callBtnLabel">Позвонить</span>
+	</a>
+</body>
 </html>
